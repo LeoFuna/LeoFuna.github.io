@@ -1,16 +1,64 @@
+.central {
+    background-color:  rgb(226, 222, 222);
+    margin:25px 330px;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+}
+.top-guide {
+    background-color: rgb(226, 222, 222);
+    margin:0px;
+    padding:2px 0;
+    text-transform: uppercase;
+}
+
+#main-name{
+    font-size: 0.6em;
+    width: 25%;
+    margin: 15px 0px -25px 0px;
+    text-align: left;
+}
+
+.summary {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    width: 410px;
+    margin-left: 64.5%;
+    margin-top: -100px;
+    list-style-type: none;
+}
+
+.block-inline{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#myimage {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 460px;
+    border-radius: 250px;
+}
+
+.who-am-i{
     text-align: center;
+    background-color: rgb(226, 222, 222);
+    width: 500px;
+    margin-left: 333px;
 }
-#descricao {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:left;
+.main-part{
+    text-transform: uppercase;
+    font-size: 30px;
 }
-body {background-color: rgb(238,198,67); font-size: 35px}
-.destaques {
-    font-style:italic;
+.description{
+    font-size: 20px;
+    font-style: italic;
 }
-#primeiro{font-size:1.5em;}
-#segundo{font-size: 1.4em;}
-#terceiro{font-size: 1.3em;}
-#quarto{font-size: 1.2em;}
+
+
+
+
+body {
+    background-color:  rgb(226, 222, 222);
+    font-size: 35px}
