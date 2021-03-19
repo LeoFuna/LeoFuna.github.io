@@ -1,0 +1,16 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#descricao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+}
+body {background-color: rgb(238,198,67); font-size: 35px}
+.destaques {
+    font-style:italic;
+}
+#primeiro{font-size:1.5em;}
+#segundo{font-size: 1.4em;}
+#terceiro{font-size: 1.3em;}
+#quarto{font-size: 1.2em;}
