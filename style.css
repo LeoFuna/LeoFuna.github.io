@@ -3,16 +3,19 @@ body {
     font-size: 35px
 }
 .central {
-    margin:25px 330px;
+    margin:1% 18%;
 }
 .section1{
-    padding-bottom: 15px;
+    padding: 0% 0% 1% 0%;
 }
 .summary a{
     text-decoration: none;
     color: black;
     background-color: transparent;
 }
+
+
+
 .section2{
 
 }
@@ -21,66 +24,66 @@ body {
 }
 .icons{
   text-align: right;
-  padding-right: 10px;
+  padding-right: 1%;
 }
 .gitlogo{
-    width: 50px;
-    padding-bottom: 0px;
-    margin-right: 5px;
+    width: 4%;
+    padding-bottom: 0%;
+    margin-right: 0.8%;
 }
 .linkedinlogo{
-    width: 45px;
+    width: 3.7%;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 .top-guide {
     margin:0px;
-    padding:2px 0;
+    padding:0.2% 0%;
     text-transform: uppercase;
 }
 
 #main-name{
     font-size: 0.6em;
     width: 25%;
-    margin: 15px 0px -25px 0px;
+    margin: 2% 0% -2% 0%;
     text-align: left;
 }
 
 .summary {
-    font-size: 20px;
+    font-size: 0.57em;
     font-weight: 500;
     text-align: right;
-    width: 410px;
+    width: 35.4%;
     margin-left: 64.5%;
-    margin-top: -100px;
+    margin-top: -8.5%;
     list-style-type: none;
 }
 
 .block-inline{
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 5%;
 }
 
 #myimage {
-    width: 250px;
-    margin-top: 60px;
-    margin-left: 460px;
-    border-radius: 250px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: 100%;
 }
 
 .who-am-i{
     text-align: center;
-    width: 500px;
-    margin-left: 333px;
-    margin-bottom: 50px;
+    width: 35%;
+    margin-left: 32%;
+    margin-bottom: 2%;
 }
 .main-part{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 0.7em;
 }
 .description{
-    font-size: 20px;
+    font-size: 0.6em;
     font-style: italic;
 }
 
