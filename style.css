@@ -82,13 +82,14 @@ body {
   flex-direction: column;
   height: 18vh;
   align-items: flex-start;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .gitlogo{
     width: 4.2%;
     padding-bottom: 0%;
     margin-right: 0.78vw;
     margin-left: auto;
+    margin-top: auto;
 }
 .linkedinlogo{
     width: 3.7%;
