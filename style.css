@@ -2,16 +2,43 @@ body {
     background-color:  rgb(226, 222, 222);
     font-size: 35px
 }
-.central {
-    margin:1% 18%;
+#main-content {
+  margin: auto;
+  width: 70vw;
+  background-color: red;
 }
-.section1{
-    padding: 0% 0% 1% 0%;
+#section1{
+  height: 30vh;
 }
-.summary a{
+.hero-title {
+  background-color: magenta;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+#main-name {
+  font-size: 0.6em;
+  width: 40vw;
+  align-content: center;
+  text-align: left;
+  height: 5vh;
+  margin-top: 1vh;
+  overflow: hidden;
+}
+
+#hero-guide {
+  font-size: 0.57em;
+  width: 40vw;
+  height: 5vh;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  margin-top: 1vh;
+  overflow: hidden;
+}
+#hero-guide li a {
     text-decoration: none;
     color: black;
-    background-color: transparent;
 }
 
 
@@ -37,28 +64,9 @@ body {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
-.top-guide {
-    margin:0px;
-    padding:0.2% 0%;
-    text-transform: uppercase;
-}
 
-#main-name{
-    font-size: 0.6em;
-    width: 25%;
-    margin: 2% 0% -2% 0%;
-    text-align: left;
-}
 
-.summary {
-    font-size: 0.57em;
-    font-weight: 500;
-    text-align: right;
-    width: 35.4%;
-    margin-left: 64.5%;
-    margin-top: -8.5%;
-    list-style-type: none;
-}
+
 
 .block-inline{
     display: inline-block;
