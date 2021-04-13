@@ -13,20 +13,22 @@
             <div class="hero-title">
                 <h1 id="main-name">Leonardo Funabashi</h1>
                 <ul id="hero-guide">
-                  <li class="block-inline">Work</li>
-                  <li class="block-inline">Contact </li>
-                  <li class="block-inline"><a href="#section1">About</a></li>
+                  <li class="navigation-itens-section1">Work</li>
+                  <li class="navigation-itens-section1">Contact </li>
+                  <li class="navigation-itens-section1"><a href="#section1">About</a></li>
                 </ul>
             </div>
-            <img id="myimage" src="eu.jpeg" alt="Foto do Leonardo Funabashi">
-            <div class="who-am-i">
-                <h2 class="main-part">Oi, sou o Funa!</h2>
-                <p class="description">Sou amante de tecnologia, música e mercado financeiro, de origem japonesa mas nascido no Brasil e atualmente morando em Serra-ES</p>
+            <div id='image-and-logos'>
+              <img id="myimage" src="eu.jpeg" alt="Foto do Leonardo Funabashi">
+              <div class="icons">
+                <img id="gitlogo" onclick="openIconPage(document.querySelector('#gitlogo'))" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
+                <img id ="linkedinlogo" onclick="openIconPage(document.querySelector('#linkedinlogo'))" src="images/linkedinlogo.png" alt="linkedin logo">
+              </div> 
             </div>
-            <div class="icons">
-                <img class="gitlogo" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
-                <img class ="linkedinlogo" src="images/linkedinlogo.png" alt="linkedin logo">
-            </div> 
+            <div class="who-am-i">
+                <h2 class="main-part">Hi, I'm Funa!</h2>
+                <p class="description">I'm a web developer student on Trybe and here is where I will list my journey and achievements!</p>
+            </div>
         </div>
 <!-- 
         <ul>
@@ -44,5 +46,6 @@
         <a id ="interna" href="eu.jpeg">Foto do Leonardo Interna</a><br><br>
         <a href="https://www.infomoney.com.br/ultimas-noticias/" target="_blank">Site que acompanho diariamente</a> -->
     </div>
+  <script src="script.js"></script>
 </body>
 </html>
