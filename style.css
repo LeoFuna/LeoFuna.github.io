@@ -19,7 +19,7 @@ body {
 }
 #main-name {
   font-size: 0.6em;
-  width: 30%;
+  width: 50%;
   align-content: center;
   text-align: left;
   height: 5vh;
@@ -29,7 +29,7 @@ body {
 
 #hero-guide {
   font-size: 0.57em;
-  width: 30%;
+  width: 50%;
   height: 5vh;
   font-weight: 500;
   text-align: right;
