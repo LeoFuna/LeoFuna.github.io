@@ -1,6 +1,6 @@
 body {
     background-color:  rgb(226, 222, 222);
-    font-size: 35px
+    font-size:35px;
 }
 #main-content {
   margin: auto;
@@ -28,13 +28,13 @@ body {
 }
 
 #hero-guide {
-  font-size: 0.57em;
+  font-size: 0.50em;
   width: 50%;
   height: 5vh;
   font-weight: 500;
   text-align: right;
   display: inline-block;
-  margin-top: 1vh;
+  margin-top: 1.5vh;
   padding-right: 0.5vw;
   overflow: hidden;
 }
@@ -101,5 +101,5 @@ h1 {
 
 .navigation-itens-section1 {
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 2%;
 }
