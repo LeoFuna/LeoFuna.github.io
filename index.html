@@ -5,31 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css""> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main-content">
-        <div id="section1">
-            <div class="hero-title">
-                <h1 id="main-name">Leonardo Funabashi</h1>
-                <ul id="hero-guide">
-                  <li class="navigation-itens-section1">Work</li>
-                  <li class="navigation-itens-section1">Contact </li>
-                  <li class="navigation-itens-section1"><a href="#section1">About</a></li>
-                </ul>
-            </div>
-            <div id='image-and-logos'>
-              <img id="myimage" src="eu.jpeg" alt="Foto do Leonardo Funabashi">
-              <div class="icons">
-                <img id="gitlogo" onclick="openIconPage(document.querySelector('#gitlogo'))" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
-                <img id ="linkedinlogo" onclick="openIconPage(document.querySelector('#linkedinlogo'))" src="images/linkedinlogo.png" alt="linkedin logo">
-              </div> 
-            </div>
-            <div class="who-am-i">
-                <h2 class="main-part">Hi, I'm Funa!</h2>
-                <p class="description">I'm a web developer student on Trybe and here is where I will list my journey and achievements!</p>
-            </div>
+  <header class="navbar" id='header'>
+    <div class='navbar-brand'>
+      <h1 class="navbar-item-logo" id="logo">船橋市</h1>
+      <h1 class='navbar-item-logo'>Leonardo Funabashi</h1>
+    </div>
+    <nav class='navbar-menu'>
+        <div class="navbar-item-menu">Projects</div>
+        <div class="navbar-item-menu">About</div>
+        <div class="navbar-item-menu">Contact</div>
+    </nav>
+  </header>
+  <main class='general-content'>
+    <!-- Foto + logoLinks -->
+    <section class='' id='photo-logos'>
+      <div class="sider">
+
+      </div>
+      <div class="image-conteiner">
+          <img class='' id='main-image' src="eu.jpeg" alt="Foto Leonardo Funabashi">
+      </div>
+      <div class='sider'>
+        <img id="gitlogo" onclick="openIconPage(document.querySelector('#gitlogo'))" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
+        <img id ="linkedinlogo" onclick="openIconPage(document.querySelector('#linkedinlogo'))" src="images/linkedinlogo.png" alt="linkedin logo">
+      </div>
+    </section>
+    <!-- Primeira Apresentação -->
+    <section></section>
+    <!-- Segunda Apresentação -->
+    <section></section>
+  </main>
+
+
+    <!-- <div id="main-content">
+      <nav class="navbar has-background-light" id="navi-bar">
+        <div class='navbar-brand'>
+          <h1 class='navbar-item has-text-dark' id="main-name">Leonardo Funabashi</h1>
         </div>
+        <div class='navbar-menu is-active'>
+          <ul class='navbar-end' id="hero-navi">
+            <li class="navbar-item has-text-dark">Work</li>
+            <li class="navbar-item has-text-dark">Contact </li>
+            <li class="navbar-item has-text-dark">About</li>
+          </ul>
+        </div>
+      </nav>
+      <div class='' id="section1">
+        <div class='columns' id='image-and-logos'>
+          <div class='is-1 column'></div>
+          <figure class='image column is-10'>
+            <img class='is-rounded' id="myimage" src="eu.jpeg" alt="Foto do Leonardo Funabashi">
+          </figure>
+          <div class="image column is-1 is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+            <img id="gitlogo" onclick="openIconPage(document.querySelector('#gitlogo'))" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
+            <img id ="linkedinlogo" onclick="openIconPage(document.querySelector('#linkedinlogo'))" src="images/linkedinlogo.png" alt="linkedin logo">
+          </div> 
+        </div>
+        <div class="who-am-i">
+          <h2 class="main-part">Hi, I'm Funa!</h2>
+          <p class="description">I'm a web developer student on Trybe and here is where I will list my journey and achievements!</p>
+        </div>
+      </div> -->
 <!-- 
         <ul>
             <li><a href="#descricao">Descrição</a></li>
