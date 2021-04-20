@@ -1,105 +1,90 @@
-body {
-    background-color:  rgb(226, 222, 222);
-    font-size:35px;
-}
-#main-content {
-  margin: auto;
-  width: 70vw;
-  max-width: 1000px;
-  min-width: 600px;
-}
-#section1{
-  height: 70vh;
-}
-.hero-title {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0.5vw;
-}
-#main-name {
-  font-size: 0.6em;
-  width: 50%;
-  align-content: center;
-  text-align: left;
-  height: 5vh;
-  margin-top: 1vh;
-  overflow: hidden;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#hero-guide {
-  font-size: 0.50em;
-  width: 50%;
-  height: 5vh;
-  font-weight: 500;
-  text-align: right;
-  display: inline-block;
-  margin-top: 1.5vh;
-  padding-right: 0.5vw;
-  overflow: hidden;
-}
-#hero-guide li a {
-    text-decoration: none;
-    color: black; 
-}
-
-#myimage {
-  width: 20%;
-  max-width: 30%;
-  display: flex;
-  margin-left: 40%;
-  margin-right: auto;
-  border-radius: 100%;
-  border: 1.5px solid black;
-}
-
-.who-am-i{
-  display: block;
-  max-width: 70%;
-  text-align: center;
-  width: 50rem;
+#main-image {
+  width: 20vw;
+  height: 20vw;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 100%;
 }
 
-.main-part{
+#gitlogo {
+  width: 50px;
+  cursor:pointer;
+}
+
+#linkedinlogo {
+  width: 45px;
+  cursor:pointer;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
   text-transform: uppercase;
-  font-size: 0.7em;
+  font-size: 19px;
+  background-color: rgb(214, 213, 212);
+  height: 50px;
+  width: 100%;
+  color: rgb(114, 114, 114);
 }
 
-.description{
-  font-size: 0.6em;
-  font-style: italic;
+.navbar-brand, .navbar-menu {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
 }
 
-#image-and-logos {
-  display: flex;
+.navbar-item-logo {
+  font-size: 24px;
+  margin-left: 15px;
 }
-.icons {
+
+.navbar-item-menu {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.general-content {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: rgb(199, 192, 189);
+}
+
+#logo {
+  background-color: rgb(83, 83, 83);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 21px;
+  padding: 4px;
+}
+
+#main-img {
+  width: 15vw;
+  height: 15vw;
+}
+
+#photo-logos {
   display: flex;
-  width: 7.5%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sider {
+  width: 10vw;
+  display: flex;
   flex-direction: column;
-  height: auto;
-}
-#gitlogo{
-    width: 69.5%;
-    padding-bottom: 0%;
-    margin-right: 0.78vw;
-    margin-left: auto;
-    margin-top: auto;
-    cursor: pointer;
-}
-#linkedinlogo{
-    width: 60%;
-    margin-left: auto;
-    margin-right: 1vw;
-    cursor: pointer;
-}
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
 }
 
-.navigation-itens-section1 {
-    display: inline-block;
-    margin-left: 2%;
+.image-conteiner {
+  margin-top: 80px;
+  margin-bottom: 35px;
 }
