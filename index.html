@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css""> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="navbar" id='header'>
     <div class='navbar-brand'>
-      <h1 class="navbar-item-logo" id="logo">船橋市</h1>
-      <h1 class='navbar-item-logo'>Leonardo Funabashi</h1>
+      <h1 class="navbar-item-brand" id="brand">船橋市</h1>
+      <h1 class='navbar-item-brand' id='my-name'>Leonardo Funabashi</h1>
     </div>
     <nav class='navbar-menu'>
         <div class="navbar-item-menu">Projects</div>
@@ -20,24 +21,33 @@
         <div class="navbar-item-menu">Contact</div>
     </nav>
   </header>
+  <div id='suport-header-div'></div>
   <main class='general-content'>
     <!-- Foto + logoLinks -->
     <section class='' id='photo-logos'>
-      <div class="sider">
+      <div class="sider"> <!-- blank sider-->
 
       </div>
       <div class="image-conteiner">
-          <img class='' id='main-image' src="eu.jpeg" alt="Foto Leonardo Funabashi">
+          <img id='main-image' src="eu.jpeg" alt="Foto Leonardo Funabashi">
       </div>
-      <div class='sider'>
-        <img id="gitlogo" onclick="openIconPage(document.querySelector('#gitlogo'))" src="http://pngimg.com/uploads/github/github_PNG40.png" alt="Github logo">
-        <img id ="linkedinlogo" onclick="openIconPage(document.querySelector('#linkedinlogo'))" src="images/linkedinlogo.png" alt="linkedin logo">
+      <div class='sider'> <!--logo sider-->
+        <a href="http://github.com/LeoFuna" target="_blank">
+          <i class='fab fa-github-square' id='gitlogo' style="font-size: 32px;"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/leonardofunabashi/" target="_blank">
+          <i class="fab fa-linkedin" id='linkedinlogo' style="font-size: 32px;"></i>
+        </a>
       </div>
     </section>
-    <!-- Primeira Apresentação -->
-    <section></section>
+      <!-- Primeira Apresentação -->
+    <section  id='who-am-i'>
+      <h2>Hi! I'm Funa!</h2>
+    </section>
     <!-- Segunda Apresentação -->
-    <section></section>
+    <section id='little-apresentation'>
+      <h4>I'm a web developer student on Trybe and here is where I will list my journey and achievements!</h4>
+    </section>
   </main>
 
 

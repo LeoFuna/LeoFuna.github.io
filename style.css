@@ -10,16 +10,25 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
+  border: 1px solid #056571;
 }
 
 #gitlogo {
-  width: 50px;
   cursor:pointer;
+  opacity: 80%;
+}
+
+#gitlogo:hover, #linkedinlogo:hover {
+  opacity: 100%;
 }
 
 #linkedinlogo {
-  width: 45px;
   cursor:pointer;
+  opacity: 80%;
+}
+
+a {
+  color: inherit;
 }
 
 header {
@@ -29,10 +38,19 @@ header {
   justify-content: space-between;
   text-transform: uppercase;
   font-size: 19px;
-  background-color: rgb(214, 213, 212);
+  background-color: #414141;
   height: 50px;
   width: 100%;
-  color: rgb(114, 114, 114);
+  color: white;
+  opacity: 90%;
+}
+
+#suport-header-div {
+  height: 50px;
+}
+
+header:hover {
+  opacity: 100%;
 }
 
 .navbar-brand, .navbar-menu {
@@ -41,34 +59,35 @@ header {
   align-items: center;
 }
 
-.navbar-item-logo {
-  font-size: 24px;
+.navbar-item-brand {
+  font-size: 0.9em;
   margin-left: 15px;
+  opacity: 90%;
 }
 
 .navbar-item-menu {
-  font-size: 18px;
+  font-size: 0.8em;
   margin-left: 15px;
+  opacity: 90%;
+}
+
+.navbar-item-logo:hover, .navbar-item-menu:hover {
+  opacity: 100%;
+  cursor: default;
 }
 
 .general-content {
   width: 80vw;
   margin: 0 auto;
-  background-color: rgb(199, 192, 189);
+  background-color: #ccdfcb;
 }
 
-#logo {
-  background-color: rgb(83, 83, 83);
+#brand {
+  background-color: #056571;
   color: white;
   border-radius: 5px;
-  border: 1px solid black;
-  font-size: 21px;
+  border: 1px solid #056571;
   padding: 4px;
-}
-
-#main-img {
-  width: 15vw;
-  height: 15vw;
 }
 
 #photo-logos {
@@ -85,6 +104,21 @@ header {
 }
 
 .image-conteiner {
-  margin-top: 80px;
-  margin-bottom: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#who-am-i, #little-apresentation {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#little-apresentation h4 {
+  display: block;
+  /* margin-bottom:; */
+  font-style: italic;
 }
