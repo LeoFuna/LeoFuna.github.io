@@ -18,6 +18,7 @@
   cursor:pointer;
   opacity: 80%;
   font-size: 22px;
+  color: rgb(85, 85, 85);
 }
 
 #gitlogo:hover, #linkedinlogo:hover {
@@ -110,10 +111,14 @@ header:hover {
   display: block;
   font-size: 0.9em;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   width: 70vw;
   margin-right: auto;
   margin-left: auto;
+}
+
+#little-apresentation {
+  color: rgb(85, 85, 85);
 }
 
 #little-apresentation h4 {
