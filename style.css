@@ -107,6 +107,8 @@ main {
 }
 
 #who-am-i, #little-apresentation {
+  color: #423d33;
+  /* color: #27241d; */
   display: block;
   font-size: 0.9em;
   text-align: center;
@@ -131,7 +133,6 @@ main {
 #line-timeline {
   height: 100vh;
   border-left: 1px solid #857f72;
-  /* border-right: 1px solid #857f72; */
   margin-left: 4vw;
   margin-right: -4vw;
   opacity: 80%;
@@ -203,14 +204,63 @@ main {
 }
 
 .timeline-event h3 {
+  color: #423d33;
+  /* color: #27241d; */
   font-size: 0.8em;
   padding-bottom: 10px;
   text-align: center;
 }
 
 .timeline-event div p {
+  color: #423d33;
+  /* color: #27241d; */
   font-size: 0.7em;
   width: 50vw;
   text-align: justify;
   padding-bottom: 50px;
+}
+
+#general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#general section {
+  padding-bottom: 15px;
+  width: 70vw;
+}
+
+#general section h3 {
+  color: #423d33;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin: 10px 0px;
+  color: #857f72;
+  opacity: 90%;
+}
+
+.list-element {
+  display: flex;
+}
+
+.list-element i {
+  /* color: #27241d; */
+  color: #423d33;
+  text-align: center;
+  flex-basis: 20px;
+  font-size: 0.9em;
+  margin-right: 1em;
+  padding-bottom: 8px;
+}
+
+.list-element p {
+  color: #423d33;
+  /* color: #27241d; */
+  flex-basis: 80%;
+  text-align: left;
 }
