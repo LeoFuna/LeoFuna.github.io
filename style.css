@@ -18,7 +18,8 @@
   cursor:pointer;
   opacity: 80%;
   font-size: 22px;
-  color: rgb(85, 85, 85);
+  /* color: rgb(85, 85, 85); */
+  color: #857f72;
 }
 
 #gitlogo:hover, #linkedinlogo:hover {
@@ -36,7 +37,8 @@ header {
   justify-content: space-between;
   text-transform: uppercase;
   font-size: 19px;
-  background-color: #414141;
+  background-color: #857f72;
+  /* background-color: #414141; */
   height: 30px;
   width: 100%;
   color: white;
@@ -77,14 +79,16 @@ header:hover {
 main {
   width: 90vw;
   margin: 0 auto;
-  background-color: #ccdfcb;
+  /* background-color: #ccdfcb; */
+  background-color: #faf9f7;
 }
 
 #brand {
-  background-color: #056571;
+  background-color: #27241d;
+  /* background-color: #056571; */
   color: white;
   border-radius: 5px;
-  border: 1px solid #056571;
+  /* border: 1px solid #056571; */
   padding: 4px;
   min-width: 37px;
 }
@@ -131,8 +135,8 @@ main {
 
 #line-timeline {
   height: 100vh;
-  border-left: 1px solid rgb(85, 85, 85);
-  border-right: 1px solid rgb(85, 85, 85);
+  border-left: 1px solid #857f72;
+  border-right: 1px solid #857f72;
   margin-left: 4vw;
   margin-right: -4vw;
   opacity: 80%;
@@ -158,7 +162,8 @@ main {
   align-self: flex-start;
   align-items: flex-start;
   font-size: 0.70em;
-  color: rgb(85, 85, 85);
+  /* color: rgb(85, 85, 85); */
+  color: #857f72;
   margin-left: -68vw;
 }
 
@@ -184,7 +189,8 @@ main {
   object-fit: scale-down;
   margin-bottom: 15px;
   border-radius: 3%;
-  border: 1px solid #056571;
+  /* border: 1px solid #056571; */
+  border: 1px solid #857f72;
 }
 
 .timeline-event {
