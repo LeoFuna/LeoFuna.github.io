@@ -140,7 +140,7 @@ main {
   border-left: 1px solid #857f72;
   margin-left: 4vw;
   margin-right: -4vw;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 #main-timeline {
@@ -158,13 +158,12 @@ main {
 }
 
 .timeline-visual {
-  position: absolute;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   font-size: 0.70em;
   color: #857f72;
-  margin-left: -68vw;
+  margin-left: -10vw;
 }
 
 .timeline-visual i {
@@ -246,7 +245,7 @@ main {
 hr {
   margin: 10px 0px;
   color: #857f72;
-  opacity: 90%;
+  opacity: 100%;
 }
 
 .list-element {
