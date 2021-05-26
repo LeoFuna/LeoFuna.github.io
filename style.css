@@ -136,7 +136,7 @@ main {
 }
 
 #line-timeline {
-  height: 100vh;
+  height: 100%;
   border-left: 1px solid #857f72;
   margin-left: 4vw;
   margin-right: -4vw;
