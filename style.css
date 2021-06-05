@@ -52,10 +52,6 @@ header {
   height: 30px;
 }
 
-header:hover {
-  opacity: 100%;
-}
-
 .navbar-brand, .navbar-menu {
   display: flex;
   margin: 0 10px;
@@ -267,4 +263,121 @@ hr {
   /* color: #27241d; */
   flex-basis: 80%;
   text-align: left;
+}
+
+@media screen and (min-width: 1000px) { /*Responsividade Desktop*/
+  header {
+    font-size: 36px;
+    height: 100px;
+  }
+  #suport-header-div {
+    height: 100px;
+  }
+  .navbar-brand, .navbar-menu {
+    margin: 0 10vw;
+  }
+  .navbar-item-brand {
+    font-size: 0.6em;
+    margin-left: 20px;
+    opacity: 80%;
+  }
+  .navbar-item-brand:hover {
+    opacity: 100%;
+    font-size: 0.65em;
+    cursor:default;
+  }
+  #brand {
+    border-radius: 7px;
+    padding: 10px;
+    min-width: 90px;
+  }
+  .navbar-item-menu {
+    font-size: 0.6em;
+    margin-left: 20px;
+    opacity: 80%;
+  }
+  .navbar-item-menu:hover {
+    opacity: 100%;
+    font-weight: 900;
+  }
+  main {
+    width: 80vw;
+  }
+  #main-image {
+    width: 22vw;
+    height: 22vw;
+    border: 1.5px solid #857f72;
+  }
+  .image-conteiner {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /* #gitlogo, 
+  #linkedinlogo {
+    cursor:pointer;
+    opacity: 100%;
+    font-size: 50px;
+    color: #857f72;
+  } */
+  /* .sider {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  #who-am-i, #little-apresentation {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    width: 50vw;
+  }
+  
+  #little-apresentation h4 {
+    padding-bottom: 35px;
+  }
+  /* .timeline-visual {
+    font-size: 1.3em;
+    margin-left: -15vw;
+  }
+
+  .timeline-visual i {
+    margin-right: -0.6em;
+    font-size: 0.8em;
+  }
+
+  .date-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.15em;
+    margin-left: 1em;
+  }
+
+  .date-timeline p {
+    margin-bottom: 0.25em;
+  }
+ */
+  .timeline-image {
+    width: 35vw;
+    height: 35vw;
+    margin-bottom: 20px;
+    border: 1.5px solid #857f72;
+  }
+  /* .timeline-event {
+    padding-left: 5em;
+  } */
+  .timeline-event h3 {
+    font-size: 1.4em;
+    padding-bottom: 20px;
+  }
+  /* .timeline-event div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .timeline-event div a {
+    justify-content: center;
+  }
+  .timeline-event div p {
+    font-size: 1.2em;
+    text-align: center;
+  }
 }
