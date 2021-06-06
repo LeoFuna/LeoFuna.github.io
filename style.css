@@ -312,67 +312,69 @@ hr {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  /* #gitlogo, 
+  #gitlogo, 
   #linkedinlogo {
-    cursor:pointer;
-    opacity: 100%;
     font-size: 50px;
-    color: #857f72;
-  } */
-  /* .sider {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
+  }
+  #gitlogo:hover, 
+  #linkedinlogo:hover {
+    font-size: 55px;
+  }
   #who-am-i, #little-apresentation {
     font-size: 1.3em;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 50vw;
   }
   
   #little-apresentation h4 {
     padding-bottom: 35px;
   }
-  /* .timeline-visual {
-    font-size: 1.3em;
-    margin-left: -15vw;
+  #general section {
+    width: 60vw;
+  }
+  
+  #general section h3 {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+  }
+  hr {
+    margin: 20px 0px;
+  }
+  .list-element i {
+    flex-basis: 47px;
+    font-size: 1.2em;
+    padding-bottom: 12px;
+  }
+  .list-element p {
+    font-size: 1.2em;
+  }
+  #line-timeline {
+    border-left: 1.3px solid #857f72;
+    margin-left: 9vw;
+  }
+  .timeline-visual {
+    font-size: 1.15em;
+    margin-left: -6vw;
   }
 
   .timeline-visual i {
-    margin-right: -0.6em;
+    margin-right: -0.65em;
     font-size: 0.8em;
   }
 
   .date-timeline {
-    display: flex;
-    flex-direction: column;
-    margin-top: -0.15em;
-    margin-left: 1em;
+    margin-left: 1.2em;
   }
-
-  .date-timeline p {
-    margin-bottom: 0.25em;
-  }
- */
   .timeline-image {
-    width: 35vw;
-    height: 35vw;
+    width: 30vw;
+    height: 30vw;
     margin-bottom: 20px;
     border: 1.5px solid #857f72;
   }
-  /* .timeline-event {
-    padding-left: 5em;
-  } */
   .timeline-event h3 {
     font-size: 1.4em;
     padding-bottom: 20px;
   }
-  /* .timeline-event div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
   .timeline-event div a {
     justify-content: center;
   }
