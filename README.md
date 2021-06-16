@@ -2,4 +2,4 @@
 
 ## Aqui irei falar um pouco mais sobre meu trajeto como desenvolvedor Fullstack
 
-`...Ainda em construção...`
+`...Volte logo, estamos em obras...`
