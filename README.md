@@ -1,9 +1,10 @@
 # Boas vindas ao repositório da Página do meu Portfólio Pessoal!
 
-Seja muito bemvindo(a), nesse repositório você encontrará a minha página pessoal com meu portfólio.
-Ela foi criada no início da minha jornada como dev e até o momento tenho usado ela para relatar minha evolução como tal.
+Olá! 👋 Seja muito bem-vindo(a), nesse repositório você encontrará a minha página pessoal com o meu portfólio.
+
+Ela foi criada no início da minha jornada como dev e até o momento a tenho usado para relatar minha evolução. 🌱
 
 ---
 
-# Acessar aplicação
+# Acessar aplicação 👨‍💻
 - [Ver em funcionamento](https://leofuna.github.io/)
